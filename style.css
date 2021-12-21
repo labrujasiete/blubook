@@ -1,0 +1,198 @@
+@font-face{
+    font-family: 'roboReg';
+    src: url("./aseets/fonts/SFProDisplay-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'roboReg-m';
+    src: url("./aseets/fonts/SFProDisplay-Medium.ttf");
+}
+
+@font-face{
+    font-family: 'roboReg-l';
+    src: url("./aseets/fonts/SFProDisplay-Light.ttf");
+}
+
+html{
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.facebook_logo{
+    height: 100px;
+    margin-left: -28px;
+    margin-top: 112px;
+    margin-bottom: -8px;
+}
+
+.logo_text{
+    font-family: 'roboReg';
+    font-size: 28px;
+}
+
+.wrap{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 50%;
+    padding-right: 32px;
+    box-sizing: border-box;
+    padding-left: 60px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_wrap{
+    background-color: white;
+    width: 396px;
+    border-radius: 8px;
+    height: 340px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.some_input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    color: #90949c;
+    border: .5px solid #c6c6c6;
+    border-radius: 6px;
+
+    font-size: 17px;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+}
+
+.login_button{
+    color: white;
+    font-family: 'roboReg-m';
+    vertical-align: middle;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    height: 46px;
+    margin-top: 5px;
+    transition: .3s;
+}
+
+.login_button:hover{
+    cursor: pointer;
+    background-color: #0b4ea5;
+}
+
+.new_button{
+    color: white;
+    font-family: 'roboReg-m';
+    vertical-align: middle;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    height: 46px;
+    margin-top: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .3s;
+}
+
+.new_button:hover{
+    cursor: pointer;
+    background-color: #277118;
+}
+
+.frg_pswd{
+    font-family: 'roboReg-l';
+    text-decoration: none;
+    color: #1877f2;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.hr{
+    width: 100%;
+    border-bottom: none;
+    background-color: #bdbdbd;
+    width: 100%;
+    height: .5px;
+    margin-bottom: 20px;
+}
+
+.bottom_text{
+    font-family: 'roboReg-l';
+    width: 396px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.under_text{
+    max-width: 460px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+    .wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .under_text{
+        text-align: center;
+    }
+
+    .left{
+        padding: 0;
+        text-align: center;
+        width: auto;
+
+    }
+
+    .facebook_logo{
+        margin-top: 0;
+    }
+
+    .logo_text{
+        width: 400px;
+        display: block;
+    }
+
+
+  
+}
